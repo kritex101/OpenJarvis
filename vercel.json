@@ -1,4 +1,10 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "openjarvis-server": {
+      "root": ".",
+      "framework": "fastapi"
+    },
     "frontend": {
       "root": "frontend",
       "framework": "vite"
